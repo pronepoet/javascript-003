@@ -25,3 +25,9 @@ function addEventListener(event){
 button.addEventListener("click", addListAfter);
 input.addEventListener("keypress", addEventListener
     );
+
+    //fun stuff
+    const card = document.querySelector('aside');
+    card.addEventListener('dblclick', function (e){
+        card.classList.toggle('large')
+    });
